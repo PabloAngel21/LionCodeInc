@@ -1,0 +1,65 @@
+body{
+  width: 100%;
+  margin: auto;
+  -webkit-background-size:cover;
+}
+.hehe1{
+  background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url("../img/h1.jpg");
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size:cover;
+
+}
+.hehe a{
+  font-family: Gulim;
+  font-weight: bold;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.hehe a:hover{
+  background-color: #2E2E2E;
+  -webkit-transition:1s;
+
+}
+.hehe1 h1{
+  font-family: Gulim;
+  font-weight:bolder;
+  color: #f1f1f1;
+}
+.hehe1a h6{
+  border: 1px solid white;
+  border-radius: 0%;
+
+  color: #f2f2f2;
+  font-weight: bold;
+  font-family: Gulim;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.hehe1a{
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.hehe1 h5{
+  color: #f2f2f2;
+  font-family: Gulim;
+  font-weight: bold;
+
+}
+.hehe1a p{
+  font-weight: bold;
+  color: #f2f2f2;
+  font-family: Gulim;
+}
+.bobo{
+  text-align: center;
+  font-weight: bolder;
+  font-family: Gulim;
+}
+.cont2{
+  background-color: #2E2E2E ;
+  padding-top: 3%;
+}
+.ba{
+  text-align: justify;
+}

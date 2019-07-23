@@ -10,6 +10,14 @@ body{
   -webkit-background-size:cover;
 
 }
+.hehe{
+  width: 105%;
+  position: fixed;
+  z-index: 100;
+}
+
+
+
 .hehe a{
   font-family: Gulim;
   font-weight: bold;
@@ -59,7 +67,93 @@ body{
 .cont2{
   background-color: #2E2E2E ;
   padding-top: 3%;
+  font-family: Gulim;
+  padding-bottom: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+
 }
 .ba{
   text-align: justify;
+}
+.cont2 .card-body{
+  background-color: #045FB4;
+  color: #f2f2f2;
+}
+.carousel-item h5 {
+
+  font-family: Freestyle Script;
+  font-size: 2rem;
+}
+.carousel-item p {
+  font-weight: bold;
+  font-family: Freestyle Script;
+}
+.footer{
+  background: url("../img/footer.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.footer-copyright{
+  background-color: rgba(224,20,61,1);
+  background: -moz-linear-gradient(left, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(224,20,61,1)), color-stop(100%, rgba(237,112,3,1)));
+  background: -webkit-linear-gradient(left, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  background: -o-linear-gradient(left, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  background: -ms-linear-gradient(left, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  background: linear-gradient(to right, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0143d', endColorstr='#ed7003', GradientType=1 );
+  color: #f2f2f2;
+}
+.iii{
+
+  color: #A4A4A4;
+
+}
+.red{
+  color: #A4A4A4;
+}
+.nombres{
+  color: #A4A4A4;
+}
+@import url(https://weloveiconfonts.com/api/?family=zocial);
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+@import url(https://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+@import url(https://weloveiconfonts.com/api/?family=brandico);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+.cont4{
+  background-color: #E6E6E6;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.cont4 .card1{
+    background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%), url("../img/card.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #f2f2f2;
+    font-weight: bold;
+    background-attachment: fixed;
+      font-family: Gulim;
+      font-size: 40px;
+}
+.cont4 span{
+  font-size: 100px;
+}
+.cardcard{
+  font-family: Gulim;
 }

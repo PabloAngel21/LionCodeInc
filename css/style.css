@@ -144,16 +144,84 @@ body{
     background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%), url("../img/card.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     text-align: center;
     color: #f2f2f2;
     font-weight: bold;
-    background-attachment: fixed;
-      font-family: Gulim;
-      font-size: 40px;
+
+    font-family: Gulim;
+    font-size: 40px;
 }
 .cont4 span{
   font-size: 100px;
+
 }
 .cardcard{
   font-family: Gulim;
+}
+.cont4 .card-text{
+
+  text-align: justify;
+}
+.footer hr{
+  background-color: #f2f2f2;
+}
+.cont4 .vis{
+  border-radius: 10%;
+  border: 6px outset rgba(224,20,61,1);
+  background: -moz-linear-gradient(left, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(224,20,61,1)), color-stop(100%, rgba(237,112,3,1)));
+  background: -webkit-linear-gradient(left, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  background: -o-linear-gradient(left, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  background: -ms-linear-gradient(left, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  background: linear-gradient(to right, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0143d', endColorstr='#ed7003', GradientType=1 );
+}
+.cont4 .jumbotron{
+  text-align:center;
+  background-color: rgba(224,20,61,1);
+  background: -moz-linear-gradient(left, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(224,20,61,1)), color-stop(100%, rgba(237,112,3,1)));
+  background: -webkit-linear-gradient(left, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  background: -o-linear-gradient(left, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  background: -ms-linear-gradient(left, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  background: linear-gradient(to right, rgba(224,20,61,1) 0%, rgba(237,112,3,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0143d', endColorstr='#ed7003', GradientType=1 );
+  color: #f2f2f2;
+  font-family: Gulim;
+  color: #f2f2f2;
+  border-radius: 10%;
+}
+.verti{
+  background-color: #151515;
+  color: #f2f2f2;
+  font-family: Gulim;
+}
+.eeee{
+  padding-top: 3%;
+}
+.cont5{
+  padding-top: 2%;
+  padding-bottom:2% ;
+  padding-left: 4%;
+  padding-right: 4%;
+  background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url("../img/cont5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  font-family: Gulim;
+}
+.cont5 h1{
+  color: #f2f2f2;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+
+}
+.cont6{
+  background-color: #E6E6E6;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+
 }

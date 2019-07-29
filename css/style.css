@@ -141,14 +141,14 @@ body{
   padding-right: 3%;
 }
 .cont4 .card1{
-    background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%), url("../img/card.jpg");
+    background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%), url("../img/card.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     text-align: center;
     color: #f2f2f2;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
     font-weight: bold;
-
     font-family: Gulim;
     font-size: 40px;
 }
@@ -201,22 +201,32 @@ body{
   padding-top: 3%;
 }
 .cont5{
-  padding-top: 2%;
-  padding-bottom:2% ;
-  padding-left: 4%;
-  padding-right: 4%;
-  background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url("../img/cont5.jpg");
+  padding-top: 15%;
+  padding-bottom:15% ;
+  padding-left: 15%;
+  padding-right: 15%;
+  background:linear-gradient( rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1)100%), url("../img/cont5.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 
-  font-family: Gulim;
 }
 .cont5 h1{
   color: #f2f2f2;
   text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+  font-family: Gulim;
+}
+.cont5 h4{
+  font-family: Gulim;
+  color: #f2f2f2;
+}
+.cont5 hr{
+  color: #f2f2f2;
+  background-color: #f2f2f2;
+  font-weight: bold;
 
 }
+
 .cont6{
   background-color: #E6E6E6;
   padding-top: 3%;
